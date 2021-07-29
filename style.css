@@ -1,4 +1,4 @@
-
+/* icon  */
 .star{
     color: #e76f51;
 }
@@ -7,29 +7,29 @@
     background-color: #264653;
 }
 /* header  */
-#filter-uses{
+.filter-uses{
     filter: grayscale(100%);
 }
 /* button-color  */
 .button-color{
     background-color: #e76f51;
-    padding: 5px;
-    border-radius: 10px;
+    padding: 3px 5px;
+    border-radius: 5px;
+    border:0px;
 }
 /* Fetured Bikes  */
 .text-color{
     color:#0a0826;
+    margin-top: 70px;
 }
 .ceneter-color{
     color:#ea8066;
 }
-/* Happy Clients says   */
 .regina-color{
-    color:#36aef1;
+    color:#23a6f0
 }
-/* feture q. asked  */
-.btn btn-color-droupdown{
-    background-color: lightslategrey;
-    
-   
+/* Extra-work */
+.gap{
+    margin-top: 20px;
+    text-align: center;
 }

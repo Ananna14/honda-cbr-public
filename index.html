@@ -60,16 +60,47 @@
             </div>
         </nav>
         <!-- top-banner -->
-        <section class="container  overflow-hidden p-5">
+        <section class="container-fluid overflow-hidden">
             <div class="row bg-background  d-flex justify-content-center align-items-center">
-                <div class="col-md-6 p-5">
+                <div class="col-md-6 col-12 p-5">
                     <small style="color:#e0e0e0">Computer-controlled digital transistorized with electronic
                         advance</small>
                     <h1 style="color:#ffffff">Honda CBR 300R</h1>
                     <p style="color:#e0e0e0">Amet minim mollit non deserunt ullamco est sit aliqua<br>
                         dolor do amet sint. Velit officia consequat duis enim veli<br>
                         mollit. Exercitation veniam consequat sunt nostrud amet.</p>
-                    <button class="button-color">Purchase</button>
+                    <!-- Modal  start-->
+                    <!-- Button trigger modal -->
+                    <button type="button" class="button-color" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        Purchase
+                    </button>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">Classic Honda Mart</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    The Honda CBR 150R is a very popular entry-level supersport bike. Honda has updated
+                                    it for the year 2021 with new colours and some new features. It based on the same
+                                    single-cylinder engine as its street sibling the Honda CB150R. This supersport is
+                                    expected to be launched in India soon. Here is the CBR 150R price in India, specs,
+                                    mileage, key features, top speed and images.
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary"
+                                        data-bs-dismiss="modal">Close</button>
+                                    <button type="button" class="btn btn-primary">Save changes</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Modal-end  -->
                 </div>
                 <div class="col-md-6">
                     <img class="img-fluid" src="images/header-bike.png" alt="">
@@ -81,31 +112,34 @@
     <!-- header-end  -->
     <main>
         <!-- Fetured Bikes  -->
-        <section class="container">
+        <section class="container my-5">
             <h1 class="text-center fw-bold text-color">Fetured Bikes 2021</h1>
             <h6 class="text-center fw-bold ceneter-color">Best bike collection</h6>
-            <div class="row my-5">
-                <div class="col-lg-4">
-                    <div id="filter-uses">
+            <div class="row g-5  d-flex align-items-center mx-auto">
+                <div class="col-lg-4 ">
+                    <div class="m-4 p-4 filter-uses ">
                         <img class="w-75" src="images/feature-bike.jpg" alt="">
                     </div>
                 </div>
 
                 <div class="col-lg-4">
-                    <img class="w-75" src="images/feature-bike.jpg" alt="">
-                </div>
-                <div class="col-lg-4">
-
-                    <div id="filter-uses">
+                    <div class="m-4 p-4">
                         <img class="w-75" src="images/feature-bike.jpg" alt="">
                     </div>
                 </div>
 
+                <div class="col-lg-4 filter-uses">
+                    <div class="m-4 p-4 filter-uses">
+                        <img class="w-75" src="images/feature-bike.jpg" alt="">
+                    </div>
+                </div>
             </div>
         </section>
+        <!-- Fetured Bikes end  -->
+
         <!-- Happy Clients says  -->
-        <section class="container my-5">
-            <h1 class="text-center  fw-bold">Happy <span style="color:#e76f51">Clients says</span></h1>
+        <section class="container mt-10">
+            <h1 class="text-center fw-bold">Happy <span style="color:#e76f51">Clients says</span></h1>
             <div class="row row-cols-1 row-cols-md-3 g-4 my-5">
                 <div class="col  ">
                     <div class="card h-100  d-flex justify-content-center align-items-center p-5">
@@ -124,7 +158,7 @@
                                 <i class="far fa-star"></i>
                             </div><br>
                             <h6 class="text-center  fw-bold regina-color">Regina Miles</h6>
-                            <h6 class="text-center">Banker</h6>
+                            <h6 class="text-center  fw-bold">Banker</h6>
                         </div>
                     </div>
                 </div>
@@ -144,7 +178,7 @@
                                 <i class="far fa-star"></i>
                             </div><br>
                             <h6 class="text-center  fw-bold regina-color">Regina Miles</h6>
-                            <h6 class="text-center">Banker</h6>
+                            <h6 class="text-center fw-bold">Banker</h6>
                         </div>
                     </div>
                 </div>
@@ -164,17 +198,20 @@
                                 <i class="far fa-star"></i>
                             </div><br>
                             <h6 class="text-center  fw-bold regina-color">Regina Miles</h6>
-                            <h6 class="text-center">Banker</h6>
+                            <h6 class="text-center  fw-bold">Banker</h6>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
+        <!-- Happy Clients says end -->
+
         <!-- Frequently Asked Questions  -->
         <section class="container">
             <div class="row">
-                <h1 class="text-center  d-flex justify-content-center align-items-center fw-bold">Frequently Asked <span
-                        style="color:#e76f51">Questions</span></h1>
+                <h1 class="text-center  d-flex justify-content-center align-items-center fw-bold">Frequently Asked
+                    <span style="color:#e76f51">Questions</span>
+                </h1>
                 <div class="col-lg-7">
                     <img class="img-fluid p-5" src="images/faq.png" alt="">
                 </div>
@@ -251,20 +288,44 @@
                     </div>
                 </div>
         </section>
+        <!-- Frequently Asked Questions end  -->
+
+        <!-- Bonus-part section-1 -->
+        <section class="container">
+            <h2 class="my-5">Best Bike In India</h2>
+            <div class="row g-2">
+                <div class="col-lg-4">
+                    <div class="p-3 border bg-warning d-flex justify-content-center align-items-center">
+                        <h4 style="color:white">Honda CB Shine</h4>
+                        <img class="w-75" src="images/bike-1.png" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="p-3 border bg-warning d-flex justify-content-center align-items-center">
+                        <h4 style="color:white">Bajaj Pulsar 150</h4>
+                        <img class="w-75" src="images/bike-2.png" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="p-3 border bg-warning d-flex justify-content-center align-items-center">
+                        <h4 style="color:white">Hero passion pro</h4>
+                        <img class="w-75" src="images/bike-3.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Extra-part-section-2  -->
+        <section class="container gap col-12">
+            <h2 style="color:#e76f51">Hero Splendor 2015 ad</h2>
+            <iframe width="300" height="315" src="https://www.youtube.com/embed/ZVvmLakUtXE"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+        </section>
     </main>
     <footer>
 
     </footer>
-
-
-
-
-
-
-
-
-
-
 
 
     <!-- script-css  -->
