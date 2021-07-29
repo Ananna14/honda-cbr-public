@@ -6,6 +6,10 @@
 .bg-background{
     background-color: #264653;
 }
+/* header  */
+#filter-uses{
+    filter: grayscale(100%);
+}
 /* button-color  */
 .button-color{
     background-color: #e76f51;
@@ -22,4 +26,10 @@
 /* Happy Clients says   */
 .regina-color{
     color:#36aef1;
+}
+/* feture q. asked  */
+.btn btn-color-droupdown{
+    background-color: lightslategrey;
+    
+   
 }

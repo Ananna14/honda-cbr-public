@@ -61,7 +61,7 @@
         </nav>
         <!-- top-banner -->
         <section class="container  overflow-hidden p-5">
-            <div class="row bg-background">
+            <div class="row bg-background  d-flex justify-content-center align-items-center">
                 <div class="col-md-6 p-5">
                     <small style="color:#e0e0e0">Computer-controlled digital transistorized with electronic
                         advance</small>
@@ -86,7 +86,7 @@
             <h6 class="text-center fw-bold ceneter-color">Best bike collection</h6>
             <div class="row my-5">
                 <div class="col-lg-4">
-                    <div class="filter: grayscale(100%);">
+                    <div id="filter-uses">
                         <img class="w-75" src="images/feature-bike.jpg" alt="">
                     </div>
                 </div>
@@ -96,7 +96,7 @@
                 </div>
                 <div class="col-lg-4">
 
-                    <div class="filter: grayscale(100%);">
+                    <div id="filter-uses">
                         <img class="w-75" src="images/feature-bike.jpg" alt="">
                     </div>
                 </div>
@@ -171,26 +171,85 @@
             </div>
         </section>
         <!-- Frequently Asked Questions  -->
-        <section>
+        <section class="container">
             <div class="row">
-                <h1 class="text-center  fw-bold">Frequently Asked <span style="color:#e76f51">Questions</span></h1>
+                <h1 class="text-center  d-flex justify-content-center align-items-center fw-bold">Frequently Asked <span
+                        style="color:#e76f51">Questions</span></h1>
                 <div class="col-lg-7">
                     <img class="img-fluid p-5" src="images/faq.png" alt="">
                 </div>
-                <div class="col-lg-5">
-                    <div class="btn-group">
-                        <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown"
-                            data-bs-display="static" aria-expanded="false">
-                            Right-aligned but left aligned when large screen
-                        </button>
-                        <ul class="dropdown-menu dropdown-menu-end dropdown-menu-lg-start">
-                            <li><button class="dropdown-item" type="button">Action</button></li>
-                            <li><button class="dropdown-item" type="button">Another action</button></li>
-                            <li><button class="dropdown-item" type="button">Something else here</button></li>
-                        </ul>
+                <!-- Accordion  -->
+                <div class="col-lg-5 mt-4 flex-wrap d-flex justify-content-center align-items-center">
+                    <div class="accordion accordion-flush " id="accordionFlushExample">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="flush-headingOne">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapseOne" aria-expanded="false"
+                                    aria-controls="flush-collapseOne">
+                                    How often do you upgrade the system?
+                                </button>
+                            </h2>
+                            <div id="flush-collapseOne" class="accordion-collapse collapse"
+                                aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">Anim pariatur cliche reprehenderit, enim eiusmod high life
+                                    accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat
+                                    skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Nihil anim
+                                    keffiyeh helvetica, craft beer labore wes anderson cred. </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="flush-headingTwo">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapseTwo" aria-expanded="false"
+                                    aria-controls="flush-collapseTwo">
+                                    Where do I go incase I have a Complaint?
+                                </button>
+                            </h2>
+                            <div id="flush-collapseTwo" class="accordion-collapse collapse"
+                                aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">Anim pariatur cliche reprehenderit, enim eiusmod high life
+                                    accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat
+                                    skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf
+                                    moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda
+                                    shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred
+                                    nesciunt sapiente ea proident.</div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="flush-headingThree">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapseThree" aria-expanded="false"
+                                    aria-controls="flush-collapseThree">
+                                    How can I file a Complaint?
+                                </button>
+                            </h2>
+                            <div id="flush-collapseThree" class="accordion-collapse collapse"
+                                aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">Anim pariatur cliche reprehenderit, enim eiusmod high life
+                                    accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat
+                                    skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf
+                                    moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda
+                                    shoreditch et. Nihil anim keffiyeh helvetica. </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="flush-headingThree">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#flush-collapseThree" aria-expanded="false"
+                                        aria-controls="flush-collapseThree">
+                                        I case I forget my password, what do I do ?
+                                    </button>
+                                </h2>
+                                <div id="flush-collapseThree" class="accordion-collapse collapse"
+                                    aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body">Anim pariatur cliche reprehenderit, enim eiusmod high
+                                        life accusamus terry richardson ad squid. 3 wolf moon officia aute, non
+                                        cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
-            </div>
         </section>
     </main>
     <footer>
