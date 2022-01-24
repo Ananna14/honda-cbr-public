@@ -1,4 +1,4 @@
-# honda-cbr-public
+** honda-cbr-public**
 
 **Technologies:**
 
@@ -9,5 +9,6 @@ Bootstrap
 https://bikes-bootstrap.netlify.app/
 
 **Features**
+
 This website is made entirely with bootstrap and is fully responsive
 
